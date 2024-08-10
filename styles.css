@@ -1,0 +1,97 @@
+*{
+    background-color: black;
+    color:darkgrey;
+}
+
+
+header{
+    display: flex;
+    border-bottom: 2px solid darkgrey;
+}
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display:inline-flex;
+    margin-right: 8rem;
+    font-family: "roboto condensed";
+}
+@media only screen and (max-width:760px){
+    header ul li{
+      margin-right:2rem;
+    }
+}
+main{
+   display: flex;
+   margin-top: 2rem;
+    }
+    main p {
+        color:darkgrey;
+        text-align: justify;
+        padding-right: 2rem;
+        line-height: 1.8;
+        font-family: "roboto condensed";
+    }
+    main img{
+        border-radius: 15%;
+        height:23rem;
+        margin-right: 3rem;
+        margin-left: 4rem;
+    }
+    @media only screen and (max-width:760px){
+        main{
+            flex-direction: column;
+        }
+    }
+    h1{
+        color: black;
+        background-color: darkgrey;
+        text-align: center;
+        font-family: "roboto condensed";
+    }
+    .gallery{
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+    }
+    .gallery img{
+        height:23rem;
+        width:23rem;
+        margin-bottom: 2rem;
+    }
+    @media only  screen and (max-width:760px){
+        .gallery img{
+            height:15rem;
+        width:15rem;
+        margin-bottom: 1rem; 
+        }
+    }
+    h2{
+        color: black;
+        background-color: darkgrey;
+        text-align: center;
+        height:4rem;
+        padding-top: 2rem;
+        font-family: "roboto condensed";
+    }
+    footer{
+        border-top: 2px solid darkgrey;
+        margin-top: 4rem;
+    }
+    footer nav{
+        display: flex;
+    }
+    footer ul {
+     list-style: none;
+    }
+    footer ul li{
+        display:inline-flex;
+        margin-right: 8rem;
+        font-family: "roboto condensed";
+    }
+    @media only screen and(max-width:760px){
+        footer ul li{
+            margin:0;  
+        }
+    }
